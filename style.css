@@ -41,6 +41,8 @@
 .search img {
   width: 30px;
   height: 30px;
+  aspect-ratio: attr(width) / attr(height);
+  object-fit: cover;
 }
 
 .search button {
@@ -72,7 +74,10 @@
 
 #about .about-image {
   width: 648px;
-  height: 648px;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: attr(width) / attr(height);
 }
 
 #about .content h1 {
