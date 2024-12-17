@@ -407,3 +407,7 @@ footer {
 .visually-hidden {
   display: none;
 }
+
+.cards {
+  min-height: 800px;
+}
