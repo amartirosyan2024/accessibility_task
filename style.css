@@ -74,7 +74,7 @@
 
 #about .about-image {
   width: 648px;
-  height: auto;
+  height: 648px;
   display: block;
   object-fit: cover;
   aspect-ratio: attr(width) / attr(height);
