@@ -122,7 +122,7 @@
 .cards .card img {
   width: 180px;
   height: 230px;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: attr(width) / attr(height);
   object-fit: cover;
 }
 
