@@ -38,6 +38,11 @@
   align-items: center;
 }
 
+.search img {
+  width: 30px;
+  height: 30px;
+}
+
 .search button {
   cursor: pointer;
   background-color: #3a6150;
