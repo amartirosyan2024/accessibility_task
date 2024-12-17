@@ -122,6 +122,8 @@
 .cards .card img {
   width: 180px;
   height: 230px;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
 }
 
 .cards .card .content {
